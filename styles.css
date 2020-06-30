@@ -1,6 +1,20 @@
-h1{
-    color: blue;
+#wrapper{
+    background-color: silver;
+    padding: 20px;
 }
-p:nth-child(odd){
-    color: red;
+div{
+    display: inline-block;
+    vertical-align: top;
+}
+#pokemon{
+    width: 60%;
+}
+#pokedex{
+    /* display: inline-block; */
+    width: 30%;
+    border-top: red solid 20px;
+    border-right: red solid 20px;
+    border-left: red solid 20px;
+    border-bottom: red solid 50px;
+    padding: 30px 10px 30px 10px;
 }
